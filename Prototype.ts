@@ -1,8 +1,8 @@
-interface Modelo {
-    clone(): Modelo;
+interface IProdutoPrototype {
+    clone(): IProdutoPrototype;
 }
 
-class Computador implements Modelo {
+class Computador implements IProdutoPrototype {
     public marca: string;
     public modelo: string;
 
@@ -16,7 +16,7 @@ class Computador implements Modelo {
     }
 }
 
-class Notebook implements Modelo {
+class Notebook implements IProdutoPrototype {
     public marca: string;
     public modelo: string;
     public tamanhoTela: number;
