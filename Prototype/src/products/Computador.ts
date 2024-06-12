@@ -1,4 +1,4 @@
-import IProdutoPrototype from "../interfaces/IProdutoPrototype";
+import IProdutoPrototype from "./interfaces/IProdutoPrototype";
 
 export default class Computador implements IProdutoPrototype {
     public marca: string;

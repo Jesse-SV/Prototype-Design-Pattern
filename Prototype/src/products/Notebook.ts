@@ -1,4 +1,5 @@
-import IProdutoPrototype from "../interfaces/IProdutoPrototype";
+import IProdutoPrototype from "./interfaces/IProdutoPrototype";
+
 
 export default class Notebook implements IProdutoPrototype {
     public marca: string;
